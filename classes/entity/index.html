@@ -2,14 +2,16 @@
 
 <html>
 	<head>
-		<title>meta.sh_player - BleachRP Documentation</title>
+		<title>Entity - BleachRP Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="meta.sh_player - BleachRP Documentation" />
+		<meta property="og:title" content="Entity - BleachRP Documentation" />
 		<meta property="og:site_name" content="Documentation BleachRP" />
 
 
-			<meta property="og:description" content="Retourne le temps de jeu du joueur" />
+			<meta property="og:description" content="Objet physique dans le jeu
+
+Voir le [Garry&#39;s Mod Wiki](https:&#47;&#47;wiki.garrysmod.com&#47;page&#47;Category:Entity) pour toutes les autres fonctions de la classe `Entity`" />
 
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
@@ -42,8 +44,41 @@
 
 							<li>
 
+									<details >
+									<summary><a href="../../libraries/tny/">tny</a></summary>
+
+									<ul>
+
+
+
+
+
+
+
+
+
+									</ul>
+									</details>
+
+							</li>
+
+					</ul>
+				</details>
+
+
+
+				<details class="category" open>
+					<summary>
+						<h2>Classes</h2>
+					</summary>
+
+					<ul>
+
+
+							<li>
+
 									<details open>
-									<summary><a href="../../libraries/meta.sh_player/">meta.sh_player</a></summary>
+									<summary><a href="../../classes/entity/">Entity</a></summary>
 
 									<ul>
 
@@ -54,8 +89,8 @@
 
 										<li>
 											<span class="realm shared"></span>
-											<a href="../../libraries/meta.sh_player/#IsStuck">
-IsStuck
+											<a href="../../classes/entity/#IsDoor">
+IsDoor
 											</a>
 										</li>
 
@@ -73,12 +108,30 @@ IsStuck
 							<li>
 
 									<details >
-									<summary><a href="../../libraries/tny/">tny</a></summary>
+									<summary><a href="../../classes/player/">Player</a></summary>
 
 									<ul>
 
 
 
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../classes/player/#GetPlayTime">
+GetPlayTime
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../classes/player/#IsStuck">
+IsStuck
+											</a>
+										</li>
 
 
 
@@ -129,8 +182,10 @@ IsStuck
 
 					<div class="wrapper">
 						<header class="module">
-	<h1>meta.sh_player</h1>
-	<h2>Retourne le temps de jeu du joueur</h2>
+	<h1>Entity</h1>
+	<h2>Objet physique dans le jeu</p>
+
+<p>Voir le <a href="https://wiki.garrysmod.com/page/Category:Entity">Garry's Mod Wiki</a> pour toutes les autres fonctions de la classe <a href="../../classes/entity/#">Entity</a></h2>
 </header>
 
 <p>
@@ -143,18 +198,18 @@ IsStuck
 
 		<section class="method">
 			<header>
-				<a class="anchor" id="IsStuck">
-					<h1><span class="realm shared"></span></span>IsStuck()</h1>
+				<a class="anchor" id="IsDoor">
+					<h1><span class="realm shared"></span></span>Entity:IsDoor()</h1>
 				</a>
 
 
 
 
-					<a class="reference" href="https://github.com/ben-itdev/bleachrptree/master/gamemode/meta/sh_player.lua#L23">Voir &raquo;</a>
+					<a class="reference" href="https://github.com/ben-itdev/bleachrptree/master/gamemode/meta/sh_entity.lua#L13">Voir &raquo;</a>
 
 
 
-					<p>Permet de savoir si le joueur est bloqué et ne peut plus bouger</p>
+					<p>Vérifie si cette entité est une porte ou non</p>
 
 			</header>
 
@@ -177,7 +232,7 @@ IsStuck
 									<span class="type">bool</span>
 
 
-								<p>Retourne vrai si le joueur est considéré comme bloqué</p>
+								<p>retourne <code>true</code> si c'est une porte</p>
 							</li>
 
 

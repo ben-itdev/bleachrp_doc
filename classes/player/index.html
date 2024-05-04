@@ -2,14 +2,16 @@
 
 <html>
 	<head>
-		<title>tny - BleachRP Documentation</title>
+		<title>Player - BleachRP Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="tny - BleachRP Documentation" />
+		<meta property="og:title" content="Player - BleachRP Documentation" />
 		<meta property="og:site_name" content="Documentation BleachRP" />
 
 
-			<meta property="og:description" content="Toutes les fonctionnalités du gamemode sont contenues dans l&#39;objet &#39;tny&#39;." />
+			<meta property="og:description" content="Représentation physique du joueur connecté
+
+Voir le [Garry&#39;s Mod Wiki](https:&#47;&#47;wiki.garrysmod.com&#47;page&#47;Category:Player) pour toutes les autres fonctions de la classe `Player`" />
 
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
@@ -42,7 +44,7 @@
 
 							<li>
 
-									<details open>
+									<details >
 									<summary><a href="../../libraries/tny/">tny</a></summary>
 
 									<ul>
@@ -105,7 +107,7 @@ IsDoor
 
 							<li>
 
-									<details >
+									<details open>
 									<summary><a href="../../classes/player/">Player</a></summary>
 
 									<ul>
@@ -180,13 +182,119 @@ IsStuck
 
 					<div class="wrapper">
 						<header class="module">
-	<h1>tny</h1>
-	<h2>Toutes les fonctionnalités du gamemode sont contenues dans l'objet 'tny'.</h2>
+	<h1>Player</h1>
+	<h2>Représentation physique du joueur connecté</p>
+
+<p>Voir le <a href="https://wiki.garrysmod.com/page/Category:Player">Garry's Mod Wiki</a> pour toutes les autres fonctions de la classe <a href="../../classes/player/#">Player</a></h2>
 </header>
 
 <p>
 
 </p>
+
+
+	<h1 class="title">Functions</h1>
+
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="GetPlayTime">
+					<h1><span class="realm shared"></span></span>Player:GetPlayTime()</h1>
+				</a>
+
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrptree/master/gamemode/meta/sh_player.lua#L14">Voir &raquo;</a>
+
+
+
+					<p>Retourne le temps de jeu du joueur</p>
+
+			</header>
+
+
+
+
+
+
+
+
+				<h3>Retour</h3>
+				<ul>
+
+
+
+
+
+							<li>
+
+									<span class="type">number</span>
+
+
+								<p>Nombre de secondes que le joueur a joué sur le serveur</p>
+							</li>
+
+
+
+
+				</ul>
+
+
+
+
+
+		</section>
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="IsStuck">
+					<h1><span class="realm shared"></span></span>Player:IsStuck()</h1>
+				</a>
+
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrptree/master/gamemode/meta/sh_player.lua#L28">Voir &raquo;</a>
+
+
+
+					<p>Permet de savoir si le joueur est bloqué et ne peut plus bouger</p>
+
+			</header>
+
+
+
+
+
+
+
+
+				<h3>Retour</h3>
+				<ul>
+
+
+
+
+
+							<li>
+
+									<span class="type">bool</span>
+
+
+								<p>Retourne true si le joueur est considéré comme bloqué</p>
+							</li>
+
+
+
+
+				</ul>
+
+
+
+
+
+		</section>
 
 
 
