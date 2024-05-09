@@ -2,14 +2,14 @@
 
 <html>
 	<head>
-		<title>tny - BleachRP Documentation</title>
+		<title>tny.module - BleachRP Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="tny - BleachRP Documentation" />
+		<meta property="og:title" content="tny.module - BleachRP Documentation" />
 		<meta property="og:site_name" content="Documentation BleachRP" />
 
 
-			<meta property="og:description" content="Toutes les fonctionnalités du gamemode sont contenues dans l&#39;objet &#39;tny&#39;." />
+			<meta property="og:description" content="Fonctions permettant de gérer les modules du gamemode" />
 
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
@@ -42,7 +42,7 @@
 
 							<li>
 
-									<details open>
+									<details >
 									<summary><a href="../../libraries/tny/">tny</a></summary>
 
 									<ul>
@@ -63,7 +63,7 @@
 
 							<li>
 
-									<details >
+									<details open>
 									<summary><a href="../../libraries/tny.module/">tny.module</a></summary>
 
 									<ul>
@@ -294,13 +294,173 @@ IsStuck
 
 					<div class="wrapper">
 						<header class="module">
-	<h1>tny</h1>
-	<h2>Toutes les fonctionnalités du gamemode sont contenues dans l'objet 'tny'.</h2>
+	<h1>tny.module</h1>
+	<h2>Fonctions permettant de gérer les modules du gamemode</h2>
 </header>
 
 <p>
 
 </p>
+
+
+	<h1 class="title">Functions</h1>
+
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="tny.module.GetModule">
+					<h1><span class="realm shared"></span></span>tny.module.GetModule(uniqueId)</h1>
+				</a>
+
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrp/tree/master/gamemode/libs/sh_module.lua#L14">Voir &raquo;</a>
+
+
+
+					<p>Récupérer les informations d'un module avec son identifiant unique</p>
+
+			</header>
+
+
+
+
+
+
+					<h3>Parameters</h3>
+
+
+
+
+
+					<ul>
+
+
+
+
+
+							<li>
+								<span class="tag parameter">uniqueId</span>
+
+
+									<span class="tag"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+
+
+
+
+								<p>
+
+</p>
+							</li>
+
+					</ul>
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="tny.module.LoadModule">
+					<h1><span class="realm shared"></span></span>tny.module.LoadModule(uniqueId)</h1>
+				</a>
+
+
+					<div class="notice error">
+						<div class="title">Interne</div>
+						<p>Ceci est une fonction interne! Il est possible de l'utiliser, mais il y a un risque d'effets secondaires si elle est mal utilisée.</p>
+					</div>
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrp/tree/master/gamemode/libs/sh_module.lua#L57">Voir &raquo;</a>
+
+
+
+					<p>Charger un module du gamemode</p>
+
+			</header>
+
+
+
+
+
+
+					<h3>Parameters</h3>
+
+
+
+
+
+					<ul>
+
+
+
+
+
+							<li>
+								<span class="tag parameter">uniqueId</span>
+
+
+									<span class="tag"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+
+
+
+
+								<p> Identifiant unique du module à charger</p>
+							</li>
+
+					</ul>
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="tny.module.LoadModules">
+					<h1><span class="realm shared"></span></span>tny.module.LoadModules()</h1>
+				</a>
+
+
+					<div class="notice error">
+						<div class="title">Interne</div>
+						<p>Ceci est une fonction interne! Il est possible de l'utiliser, mais il y a un risque d'effets secondaires si elle est mal utilisée.</p>
+					</div>
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrp/tree/master/gamemode/libs/sh_module.lua#L21">Voir &raquo;</a>
+
+
+
+					<p>Charger tous les modules du gamemode</p>
+
+			</header>
+
+
+
+
+
+
+
+
+
+
+		</section>
 
 
 
