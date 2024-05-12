@@ -84,8 +84,35 @@ GetModule
 
 										<li>
 											<span class="realm shared"></span>
+											<a href="../../libraries/tny.module/#tny.module.GetModule">
+GetModule
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
 											<a href="../../libraries/tny.module/#tny.module.LoadModule">
 LoadModule
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../libraries/tny.module/#tny.module.LoadModule">
+LoadModule
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../libraries/tny.module/#tny.module.LoadModules">
+LoadModules
 											</a>
 										</li>
 
@@ -132,6 +159,24 @@ GetBaseDir
 
 										<li>
 											<span class="realm shared"></span>
+											<a href="../../libraries/tny.util/#tny.util.GetBaseDir">
+GetBaseDir
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../libraries/tny.util/#tny.util.GetGamemodeDir">
+GetGamemodeDir
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
 											<a href="../../libraries/tny.util/#tny.util.GetGamemodeDir">
 GetGamemodeDir
 											</a>
@@ -150,8 +195,35 @@ GetModulesDir
 
 										<li>
 											<span class="realm shared"></span>
+											<a href="../../libraries/tny.util/#tny.util.GetModulesDir">
+GetModulesDir
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
 											<a href="../../libraries/tny.util/#tny.util.IncludeDir">
 IncludeDir
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../libraries/tny.util/#tny.util.IncludeDir">
+IncludeDir
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../libraries/tny.util/#tny.util.IncludeFile">
+IncludeFile
 											</a>
 										</li>
 
@@ -208,6 +280,15 @@ IsDoor
 
 
 
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../classes/entity/#IsDoor">
+IsDoor
+											</a>
+										</li>
+
+
+
 
 
 
@@ -233,6 +314,24 @@ IsDoor
 											<span class="realm shared"></span>
 											<a href="../../classes/player/#GetPlayTime">
 GetPlayTime
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../classes/player/#GetPlayTime">
+GetPlayTime
+											</a>
+										</li>
+
+
+
+										<li>
+											<span class="realm shared"></span>
+											<a href="../../classes/player/#IsStuck">
+IsStuck
 											</a>
 										</li>
 
@@ -368,6 +467,129 @@ IsStuck
 
 		<section class="method">
 			<header>
+				<a class="anchor" id="tny.module.GetModule">
+					<h1><span class="realm shared"></span></span>tny.module.GetModule(uniqueId)</h1>
+				</a>
+
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrp/tree/master/gamemode/core/libs/sh_module.lua#L14">Voir &raquo;</a>
+
+
+
+					<p>Récupérer les informations d'un module avec son identifiant unique</p>
+
+			</header>
+
+
+
+
+
+
+					<h3>Parameters</h3>
+
+
+
+
+
+					<ul>
+
+
+
+
+
+							<li>
+								<span class="tag parameter">uniqueId</span>
+
+
+									<span class="tag"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+
+
+
+
+								<p>
+
+</p>
+							</li>
+
+					</ul>
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="tny.module.LoadModule">
+					<h1><span class="realm shared"></span></span>tny.module.LoadModule(uniqueId)</h1>
+				</a>
+
+
+					<div class="notice error">
+						<div class="title">Interne</div>
+						<p>Ceci est une fonction interne! Il est possible de l'utiliser, mais il y a un risque d'effets secondaires si elle est mal utilisée.</p>
+					</div>
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrp/tree/master/gamemode/core/libs/sh_module.lua#L57">Voir &raquo;</a>
+
+
+
+					<p>Charger un module du gamemode</p>
+
+			</header>
+
+
+
+
+
+
+					<h3>Parameters</h3>
+
+
+
+
+
+					<ul>
+
+
+
+
+
+							<li>
+								<span class="tag parameter">uniqueId</span>
+
+
+									<span class="tag"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+
+
+
+
+								<p> Identifiant unique du module à charger</p>
+							</li>
+
+					</ul>
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<section class="method">
+			<header>
 				<a class="anchor" id="tny.module.LoadModule">
 					<h1><span class="realm shared"></span></span>tny.module.LoadModule(uniqueId)</h1>
 				</a>
@@ -418,6 +640,39 @@ IsStuck
 							</li>
 
 					</ul>
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<section class="method">
+			<header>
+				<a class="anchor" id="tny.module.LoadModules">
+					<h1><span class="realm shared"></span></span>tny.module.LoadModules()</h1>
+				</a>
+
+
+					<div class="notice error">
+						<div class="title">Interne</div>
+						<p>Ceci est une fonction interne! Il est possible de l'utiliser, mais il y a un risque d'effets secondaires si elle est mal utilisée.</p>
+					</div>
+
+
+
+					<a class="reference" href="https://github.com/ben-itdev/bleachrp/tree/master/gamemode/core/libs/sh_module.lua#L21">Voir &raquo;</a>
+
+
+
+					<p>Charger tous les modules du gamemode</p>
+
+			</header>
+
 
 
 
